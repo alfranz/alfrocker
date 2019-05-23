@@ -15,6 +15,6 @@ docker build -t alfrocker:v1 .
 
 
 ``
-docker run -e PASSWORD=mypassword123 --rm -p 8787:8787 rocker/rstudio
+docker run -e PASSWORD=mypassword123 --rm -p 8787:8787 alfranz/alfrocker
 ``
 
